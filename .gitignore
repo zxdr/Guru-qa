@@ -1,11 +1,6 @@
 # Compiled class file
 *.class
 
-# IDEA:
-.idea/**/*
-.idea/*
-.idea/
-
 # Log file
 *.log
 
@@ -26,6 +21,7 @@
 *.iml
 
 # Project gen files
+.idea
 .allure/
 .gradle/
 allure-results/
