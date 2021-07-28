@@ -62,7 +62,7 @@ public class AutomationPracticeForm {
         $("#react-select-3-input").setValue(state).pressEnter();
         $("#react-select-4-input").setValue("Ag").pressEnter();
         $("#react-select-4-input").setValue(city).pressEnter();
-        $("#submit").click();
+        $("#submit").scrollTo().click();
         $(".h4").shouldHave(text("Thanks for submitting the form"));
 
         //Junit option
@@ -101,6 +101,6 @@ public class AutomationPracticeForm {
         $x("//td[text()='Address']/following-sibling::td").shouldHave(text(address));
         $x("//td[text()='State and City']/following-sibling::td").shouldHave(text(state + " " + city));
 
-        $("#closeLargeModal").click();
+//        $("#closeLargeModal").click();
     }
 }
