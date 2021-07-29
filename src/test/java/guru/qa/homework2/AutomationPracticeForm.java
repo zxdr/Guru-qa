@@ -100,7 +100,5 @@ public class AutomationPracticeForm {
         $x("//td[text()='Picture']/following-sibling::td").shouldHave(text(picture));
         $x("//td[text()='Address']/following-sibling::td").shouldHave(text(address));
         $x("//td[text()='State and City']/following-sibling::td").shouldHave(text(state + " " + city));
-
-//        $("#closeLargeModal").click();
     }
 }
