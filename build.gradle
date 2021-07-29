@@ -13,7 +13,7 @@ compileTestJava {
 dependencies {
     testImplementation (
             // Selenide
-            "com.codeborne:selenide:5.21.0",
+            "com.codeborne:selenide:5.23.0",
             "org.slf4j:slf4j-simple:1.7.30",
 
             // JUnit 5
